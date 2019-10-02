@@ -1,0 +1,80 @@
+CHALLENGES
+
+	TASK 1: Basic Task
+
+1. Shows the folders and files on my desktop. It means that the computer is on the desktop.
+
+2. The current working folder. It shows the location I am busy working on.
+
+3. >mkdir workspace 
+>cd workspace
+
+4. >ls. I see nothing. It means that workspace is an empty folder/directory.
+
+5. >touch README.md
+
+6. >cp README.md CHANGELOG.md
+
+
+	TASK 2: Absolute and Relative Paths
+
+>touch excercise.md
+>mv exercise.md /tmp
+>sudo rm /tmp/exercise.md
+
+
+	TASK 3: cat commands
+
+1. touch umuzi.md recruits.md cohort.md
+
+2&3. >echo "Umuzi is the house of creatives." 1>umuzi.md
+     >echo "So apparently there's cohorts. I still do not know the meaning of cohort even today. So I am part of cohort 16, the biggest Umuzi ever had! It is chaotic but I guess I'll have to survive." 1>recruits.md
+   >echo "Recruits are the people in Umuzi space who are not Umuzi's employees. Like me. We're just here for training then we gone." 1>recruits.md 
+
+4. cat umuzi.md recruits.md cohort.md >> summary.md
+
+5. echo "The End" >> summary.md
+
+
+	TASK 4: The locate command
+
+1. locate umuzi
+
+2. locate "umuzi" > search_results.md
+
+
+	TASK 5: The locate command cont..
+
+1. cd Documents/
+   touch pad.md
+
+2. cd Desktop/
+   mkdir work
+
+3. cp ~/Documents/pad.md ~/Desktop/pad_copy.md
+
+4. locate updatedbc
+
+5. cd -
+
+6. locate pad_copy.md
+
+
+	TASK 6: Find commands
+
+1. find *.pdf 
+
+2. find *.pdf >> Documents/pad.md
+
+3. ls -la | grep "Sep 30"
+
+
+	TASK 7: Text editor
+
+1. nano my_bio.md
+
+2. ctrl + X  
+   y
+
+3. mkdir my_files
+   mv my_bio my_files
